@@ -17,15 +17,16 @@
 <body background="background.jpg">
 <center>
   <h1 class="btn btn-warning heading">AI Object Finder
+    <br>
     <span id="note">The input name which you will give should match the names present in CocoSSD model. Only then it will get detected</span>
   </h1>
   <br><br>
-  <label id="object_name">Object Name :</label>
-  <input type="text">
+  <label>Object Name :</label>
+  <input type="text" class="form-control" id="object_name">
   <br><br>
   <button onclick="start()" class="btn btn-success" id="start">Start</button>
   <br><br>
-  <h3 id="number_of_objects" class="btn btn-warning"></h3>
+  <h3 id="object_status" class="btn btn-warning"></h3>
   <br><br>
   <h3 id="status" class="btn btn-danger"></h3>
 </center>
